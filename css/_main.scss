@@ -1,0 +1,58 @@
+main {
+  padding: 0 21%;
+  background-color: #efefef;
+
+  .special {
+    padding-top: 6.8%;
+
+    h2 {
+      font-size: 1.7rem;
+      margin-bottom: 3.5%;
+    }
+
+    .cards-holder {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0 2.5%;
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #fff;
+        padding: 10% 18%;
+
+        img {
+          width: 75%;
+        }
+
+        p {
+          margin: 10% 0;
+          line-height: 19.69px;
+          text-align: center;
+        }
+
+        .cost {
+          margin: 4% 0;
+          font-size: 1.5rem;
+          font-weight: 700;
+        }
+
+        a {
+          margin-top: 5%;
+          background-color: #f13c6e;
+          border-radius: 40px;
+          padding: 5% 5.5%;
+          width: 80%;
+          color: #ffffff;
+          text-align: center;
+        }
+
+        a:hover {
+            background-color: #b8db66;
+            color: #ffffff;
+          }
+      }
+    }
+  }
+}

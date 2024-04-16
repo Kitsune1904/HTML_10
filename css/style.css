@@ -1,0 +1,155 @@
+html {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  background-color: #efefef;
+}
+header nav a {
+  padding: 0.9% 0.8%;
+}
+header nav a:hover {
+  background-color: #dbdbdb;
+}
+header .logo-holder {
+  display: flex;
+  padding: 0 21%;
+  justify-content: space-between;
+  border-bottom: 1px solid #efefef;
+}
+header .logo-holder a {
+  margin: 1.5% 0;
+}
+header .logo-holder .contact-holder {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: space-between;
+}
+header .logo-holder .contact-holder a {
+  font-size: 1.1rem;
+}
+header .logo-holder .contact-holder button {
+  border: 2px solid #f13c6e;
+  background-color: white;
+  border-radius: 40px;
+  padding: 3% 17%;
+}
+header .logo-holder .contact-holder button:hover {
+  background-color: #f13c6e;
+  color: white;
+}
+header menu {
+  display: flex;
+  justify-content: center;
+}
+header menu a {
+  padding: 1.5% 1.1%;
+  font-size: 1.1rem;
+}
+header menu a:hover {
+  background-color: #dbdbdb;
+}
+header .add-holder {
+  display: flex;
+  flex-direction: column;
+  height: 604px;
+  padding: 10% 21%;
+  background-image: url("../img/black_chear.png");
+  background-position: center;
+  color: #ffffff;
+}
+header .add-holder h2 {
+  font-size: 3.3rem;
+  font-weight: 700;
+  line-height: 56.25px;
+  margin-bottom: 4%;
+}
+header .add-holder p {
+  width: 23%;
+  line-height: 20px;
+  margin-bottom: 2%;
+}
+header .add-holder a {
+  border: 2px solid #ffffff;
+  background-color: #f13c6e;
+  border-radius: 40px;
+  padding: 0.8% 5.5%;
+  width: 15%;
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+header .add-holder a:hover {
+  background-color: #fff;
+  color: #f13c6e;
+}
+
+main {
+  padding: 0 21%;
+  background-color: #efefef;
+}
+main .special {
+  padding-top: 6.8%;
+}
+main .special h2 {
+  font-size: 1.7rem;
+  margin-bottom: 3.5%;
+}
+main .special .cards-holder {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0 2.5%;
+}
+main .special .cards-holder .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 10% 18%;
+}
+main .special .cards-holder .card img {
+  width: 75%;
+}
+main .special .cards-holder .card p {
+  margin: 10% 0;
+  line-height: 19.69px;
+  text-align: center;
+}
+main .special .cards-holder .card .cost {
+  margin: 4% 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+main .special .cards-holder .card a {
+  margin-top: 5%;
+  background-color: #f13c6e;
+  border-radius: 40px;
+  padding: 5% 5.5%;
+  width: 80%;
+  color: #ffffff;
+  text-align: center;
+}
+main .special .cards-holder .card a:hover {
+  background-color: #b8db66;
+  color: #ffffff;
+}/*# sourceMappingURL=style.css.map */
