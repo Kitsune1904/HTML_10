@@ -48,7 +48,7 @@ header .logo-holder a {
 }
 header .logo-holder .contact-holder {
   display: flex;
-  width: 50%;
+  width: 30%;
   align-items: center;
   justify-content: space-between;
 }
@@ -130,7 +130,7 @@ main {
 }
 main .special,
 main .viewed {
-  padding-top: 6.8%;
+  padding-top: 6.5%;
 }
 main .special h2,
 main .viewed h2 {
@@ -163,13 +163,13 @@ main .viewed .cards-holder .card p {
 }
 main .special .cards-holder .card .cost,
 main .viewed .cards-holder .card .cost {
-  margin: 4% 0;
+  margin: 2% 0;
   font-size: 1.5rem;
   font-weight: 700;
 }
 main .special .cards-holder .card a,
 main .viewed .cards-holder .card a {
-  margin-top: 5%;
+  margin-top: 6%;
   background-color: #f13c6e;
   border-radius: 40px;
   padding: 5% 5.5%;
@@ -265,7 +265,7 @@ main .collaboration div:hover {
   background-color: #e7e7e7;
 }
 main .viewed {
-  padding-bottom: 6.7%;
+  padding-bottom: 7.3%;
 }
 
 footer .services {
@@ -349,9 +349,10 @@ footer .social .contact-holder button:hover {
 footer .history {
   display: flex;
   justify-content: space-between;
-  background-color: #EFEFEF;
+  background-color: #efefef;
   padding: 0 21%;
 }
 footer .history p {
-  padding: 1.7% 0;
+  padding: 2% 0;
+  font-size: 0.9rem;
 }/*# sourceMappingURL=style.css.map */

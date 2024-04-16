@@ -1,5 +1,4 @@
 footer {
-
   .services {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -7,8 +6,6 @@ footer {
     gap: 0 3%;
     padding: 0 21% 1% 21%;
     border-bottom: 1px solid #efefef;
-
-
 
     h3 {
       width: 50%;
@@ -39,7 +36,6 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 1% 21% 2% 21%;
-
 
     .social-logos {
       display: flex;
@@ -101,12 +97,12 @@ footer {
   .history {
     display: flex;
     justify-content: space-between;
-    background-color: #EFEFEF;
+    background-color: #efefef;
     padding: 0 21%;
-    
-    p {
-        padding: 1.7% 0;
-    }
 
-}
+    p {
+      padding: 2% 0;
+      font-size: 0.9rem;
+    }
+  }
 }

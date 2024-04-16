@@ -27,7 +27,7 @@ header {
 
     .contact-holder {
       display: flex;
-      width: 50%;
+      width: 30%;
       align-items: center;
       justify-content: space-between;
 
@@ -35,13 +35,13 @@ header {
         font-size: 1.1rem;
         color: black;
       }
-      
+
       a:hover {
         color: rgb(214, 0, 143);
       }
-      
+
       a:active {
-          color: rgb(214, 0, 143);
+        color: rgb(214, 0, 143);
       }
 
       button {
@@ -65,13 +65,12 @@ header {
     a {
       padding: 1.5% 1.1%;
       font-size: 1.1rem;
-      color: black
+      color: black;
     }
 
     a:hover {
       background-color: #dbdbdb;
     }
-
   }
 
   .add-holder {
@@ -114,8 +113,8 @@ header {
   a:hover {
     color: rgb(214, 0, 143);
   }
-  
+
   a:active {
-      color: rgb(214, 0, 143);
+    color: rgb(214, 0, 143);
   }
 }
