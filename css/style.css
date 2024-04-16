@@ -108,39 +108,47 @@ main {
   padding: 0 21%;
   background-color: #efefef;
 }
-main .special {
+main .special,
+main .viewed {
   padding-top: 6.8%;
 }
-main .special h2 {
+main .special h2,
+main .viewed h2 {
   font-size: 1.7rem;
   margin-bottom: 3.5%;
 }
-main .special .cards-holder {
+main .special .cards-holder,
+main .viewed .cards-holder {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0 2.5%;
 }
-main .special .cards-holder .card {
+main .special .cards-holder .card,
+main .viewed .cards-holder .card {
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #fff;
   padding: 10% 18%;
 }
-main .special .cards-holder .card img {
+main .special .cards-holder .card img,
+main .viewed .cards-holder .card img {
   width: 75%;
 }
-main .special .cards-holder .card p {
+main .special .cards-holder .card p,
+main .viewed .cards-holder .card p {
   margin: 10% 0;
   line-height: 19.69px;
   text-align: center;
 }
-main .special .cards-holder .card .cost {
+main .special .cards-holder .card .cost,
+main .viewed .cards-holder .card .cost {
   margin: 4% 0;
   font-size: 1.5rem;
   font-weight: 700;
 }
-main .special .cards-holder .card a {
+main .special .cards-holder .card a,
+main .viewed .cards-holder .card a {
   margin-top: 5%;
   background-color: #f13c6e;
   border-radius: 40px;
@@ -149,7 +157,71 @@ main .special .cards-holder .card a {
   color: #ffffff;
   text-align: center;
 }
-main .special .cards-holder .card a:hover {
+main .special .cards-holder .card a:hover,
+main .viewed .cards-holder .card a:hover {
   background-color: #b8db66;
   color: #ffffff;
+}
+main .contacts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 2.7%;
+  margin: 9% 0;
+}
+main .contacts .client-holder,
+main .contacts .shop-holder {
+  display: flex;
+  justify-content: space-between;
+  padding: 7% 8%;
+  background-color: #f13c6e;
+  color: #fff;
+}
+main .contacts .client-holder h3,
+main .contacts .shop-holder h3 {
+  font-size: 1.3rem;
+}
+main .contacts .client-holder p,
+main .contacts .shop-holder p {
+  margin: 6% 0;
+  width: 55%;
+  line-height: 19.69px;
+}
+main .contacts .client-holder input,
+main .contacts .client-holder a,
+main .contacts .shop-holder input,
+main .contacts .shop-holder a {
+  border-radius: 40px;
+  padding: 4% 9%;
+  margin-top: 3%;
+}
+main .contacts .client-holder a,
+main .contacts .shop-holder a {
+  display: block;
+  width: 75%;
+  background-color: #f13c6e;
+  border: 2px solid #fff;
+  padding: 3% 0;
+  margin-top: 12%;
+  color: #fff;
+  text-align: center;
+}
+main .contacts .client-holder a:hover,
+main .contacts .shop-holder a:hover {
+  background-color: #fff;
+  color: #f13c6e;
+}
+main .contacts .client-holder .img-holder,
+main .contacts .shop-holder .img-holder {
+  width: 30%;
+}
+main .contacts .client-holder .img-holder img,
+main .contacts .shop-holder .img-holder img {
+  width: 100%;
+}
+main .contacts .shop-holder .img-holder {
+  width: 42%;
+  padding: 3% 0;
+}
+main .contacts .shop-holder .img-holder img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
