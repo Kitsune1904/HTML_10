@@ -7,6 +7,10 @@ body {
   font-size: 1rem;
 }
 
+ul, ol {
+  list-style: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -27,6 +31,7 @@ header nav {
 }
 header nav a {
   padding: 0.9% 0.8%;
+  color: black;
 }
 header nav a:hover {
   background-color: #dbdbdb;
@@ -39,6 +44,7 @@ header .logo-holder {
 }
 header .logo-holder a {
   margin: 1.5% 0;
+  color: black;
 }
 header .logo-holder .contact-holder {
   display: flex;
@@ -48,6 +54,13 @@ header .logo-holder .contact-holder {
 }
 header .logo-holder .contact-holder a {
   font-size: 1.1rem;
+  color: black;
+}
+header .logo-holder .contact-holder a:hover {
+  color: rgb(214, 0, 143);
+}
+header .logo-holder .contact-holder a:active {
+  color: rgb(214, 0, 143);
 }
 header .logo-holder .contact-holder button {
   border: 2px solid #f13c6e;
@@ -66,6 +79,7 @@ header menu {
 header menu a {
   padding: 1.5% 1.1%;
   font-size: 1.1rem;
+  color: black;
 }
 header menu a:hover {
   background-color: #dbdbdb;
@@ -102,6 +116,12 @@ header .add-holder a {
 header .add-holder a:hover {
   background-color: #fff;
   color: #f13c6e;
+}
+header a:hover {
+  color: rgb(214, 0, 143);
+}
+header a:active {
+  color: rgb(214, 0, 143);
 }
 
 main {
@@ -232,15 +252,106 @@ main .collaboration {
 }
 main .collaboration div {
   width: 100%;
-  padding: 12%;
   background-color: #fff;
   border: 1px solid #efefef;
 }
 main .collaboration div img {
+  padding: 12%;
   display: block;
   margin: 0 auto;
-  width: 73%;
+  width: 80%;
+}
+main .collaboration div:hover {
+  background-color: #e7e7e7;
 }
 main .viewed {
   padding-bottom: 6.7%;
+}
+
+footer .services {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 3.5% 0 1.2% 0;
+  gap: 0 3%;
+  padding: 0 21% 1% 21%;
+  border-bottom: 1px solid #efefef;
+}
+footer .services h3 {
+  width: 50%;
+  padding-bottom: 10%;
+}
+footer .services ul {
+  border-top: 1px solid #efefef;
+  padding: 11% 0;
+}
+footer .services ul li {
+  padding: 2% 0;
+}
+footer .services ul li a {
+  color: black;
+}
+footer .services ul li a:hover,
+footer .services ul li a:active {
+  color: rgb(214, 0, 143);
+}
+footer .social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 21% 2% 21%;
+}
+footer .social .social-logos {
+  display: flex;
+  width: 40%;
+}
+footer .social .social-logos div {
+  display: grid;
+}
+footer .social .social-logos a {
+  border: 2px solid #f13c6e;
+  margin-right: 4.8%;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+}
+footer .social .social-logos a img {
+  width: 20px;
+  vertical-align: middle;
+}
+footer .social .contact-holder {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .social .contact-holder a {
+  font-size: 1.1rem;
+  color: black;
+}
+footer .social .contact-holder a:hover {
+  color: rgb(214, 0, 143);
+}
+footer .social .contact-holder a:active {
+  color: rgb(214, 0, 143);
+}
+footer .social .contact-holder button {
+  border: 2px solid #f13c6e;
+  background-color: white;
+  border-radius: 40px;
+  padding: 3% 17%;
+}
+footer .social .contact-holder button:hover {
+  background-color: #f13c6e;
+  color: white;
+}
+footer .history {
+  display: flex;
+  justify-content: space-between;
+  background-color: #EFEFEF;
+  padding: 0 21%;
+}
+footer .history p {
+  padding: 1.7% 0;
 }/*# sourceMappingURL=style.css.map */

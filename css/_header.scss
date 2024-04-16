@@ -6,6 +6,7 @@ header {
 
     a {
       padding: 0.9% 0.8%;
+      color: black;
     }
 
     a:hover {
@@ -21,16 +22,26 @@ header {
 
     a {
       margin: 1.5% 0;
+      color: black;
     }
 
     .contact-holder {
       display: flex;
-      width: 30%;
+      width: 50%;
       align-items: center;
       justify-content: space-between;
 
       a {
         font-size: 1.1rem;
+        color: black;
+      }
+      
+      a:hover {
+        color: rgb(214, 0, 143);
+      }
+      
+      a:active {
+          color: rgb(214, 0, 143);
       }
 
       button {
@@ -54,11 +65,13 @@ header {
     a {
       padding: 1.5% 1.1%;
       font-size: 1.1rem;
+      color: black
     }
 
     a:hover {
       background-color: #dbdbdb;
     }
+
   }
 
   .add-holder {
@@ -97,5 +110,12 @@ header {
       background-color: #fff;
       color: #f13c6e;
     }
+  }
+  a:hover {
+    color: rgb(214, 0, 143);
+  }
+  
+  a:active {
+      color: rgb(214, 0, 143);
   }
 }
