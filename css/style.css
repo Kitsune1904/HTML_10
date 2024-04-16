@@ -224,4 +224,23 @@ main .contacts .shop-holder .img-holder {
 }
 main .contacts .shop-holder .img-holder img {
   width: 100%;
+}
+main .collaboration {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+}
+main .collaboration div {
+  width: 100%;
+  padding: 12%;
+  background-color: #fff;
+  border: 1px solid #efefef;
+}
+main .collaboration div img {
+  display: block;
+  margin: 0 auto;
+  width: 73%;
+}
+main .viewed {
+  padding-bottom: 6.7%;
 }/*# sourceMappingURL=style.css.map */
